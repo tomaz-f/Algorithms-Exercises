@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+//Function: Calculate the weighted average
+//Author: Felipe Tomaz
+//Date: 31/03/2018
+
+int main()
+{
+    float n1,n2,n3;
+    float sum, ave;
+    string res;
+    cout << "Type the 1° note: " << endl;
+    cin >> n1;
+    cout << "Type the 2° note: " << endl;
+    cin >> n2;
+    cout << "Type the 3° note: " << endl;
+    cin >> n3;
+    n1 = n1*1;
+    n2 = n2*2;
+    n3 = n3*3;
+    sum = n1 + n2 + n3;
+    ave = sum / 6;
+    if (ave >= 5){
+        res = "Final test!";
+    }
+     if (ave >= 7){
+    res = "Approved!";
+    }
+    if ( ave < 5)
+    {
+        res = "disapproved!";
+    }
+    cout << "Average: " << ave << endl;
+    cout << "Result: " << res << endl;
+    return 0;
+}
