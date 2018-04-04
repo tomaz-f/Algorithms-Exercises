@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+// Function: Sum of two values and show the result
+// By: Felipe Tomaz
+// Date 29/03/2018
+
+int main()
+{
+    int x, a, b;
+    cin >> a;
+    cin >> b;
+    x = a + b;
+    cout << "X value: " << x << endl;
+    return 0;
+}
