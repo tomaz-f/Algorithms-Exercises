@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+// Function: Teacher income
+// By: Felipe Tomaz
+// Date 29/03/2018
+
+int main()
+{
+    int hw;
+    float ch, dp, td, gs ,ns;
+    cout << "Hours of work: " << endl;
+    cin >> hw;
+    cout << "Credit hour: " << endl;
+    cin >> ch;
+    cout << "Discount percentage: " << endl;
+    cin >> dp;
+    gs = hw * ch;
+    td =  (dp/100) * gs;
+    ns = gs - td;
+    cout << "Gross salary: " << gs << endl;
+    cout << "Net salary: " << ns << endl;
+    return 0;
+}
+
