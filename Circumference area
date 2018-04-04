@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+// Function: Circumference area
+// By: Felipe Tomaz
+// Date 29/03/2018
+
+int main()
+{
+    float r, a;
+    float pi = 3.14159;
+    cout << "Type the radius: " << endl;
+    cin >> r;
+    a = pi * r * r;
+    cout << "The area is: " << a << endl;
+    return 0;
+}
+
